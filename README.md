@@ -20,20 +20,20 @@ Supported methods:
 # Installation
 
 ```
-    go github.com/solar-jsoc/gohunter
+    go get github.com/solar-jsoc/gohunter
 ```
 
 # Examples
 
 - client init:
  
-    ```
+    ```go
     client := gohunter.NewClient("token", gohunter.WithCustomClient(http.DefaultClient))
     ```
     
 - domain-search
     
-    ```
+    ```go
     result, err := client.DomainSearch(context.TODO(), "intercom.io", "intercom", 
     	gohunter.WithLimit(20), 
     	gohunter.WithDepartment(DepartmentIT, DepartmentFinance), 
@@ -47,7 +47,7 @@ Supported methods:
     	
 - email-finder
 
-    ```
+    ```go
   	result, err := client.FindEmail(context.TODO(), "intercom.io", "intercom", gohunter.UsingFullName("John Doe"))
   	if err != nil {
   		...
@@ -56,7 +56,7 @@ Supported methods:
 
 - email-verifier
     
-    ```
+    ```go
   	result, err := client.VerifyEmail(context.TODO(), "ciaran@intercom.io")
   	if err != nil {
   		...
@@ -65,7 +65,7 @@ Supported methods:
   
 - email-count
     
-    ```
+    ```go
   	result, err := client.EmailCount(context.TODO(), "", "intercom", gohunter.EmailTypePersonal)
   	if err != nil {
   		...
@@ -74,7 +74,7 @@ Supported methods:
   
 - account
     
-    ```
+    ```go
     result, err := client.AccountInformation(context.TODO())
     if err != nil {
     	...
