@@ -1,7 +1,7 @@
 # gohunter
 
-[![Go Report Card](https://goreportcard.com/report/github.com/solar-jsoc/gohunter)](https://goreportcard.com/report/github.com/solar-jsoc/gohunter)
-[![GoDoc](https://godoc.org/github.com/solar-jsoc/gohunter)](https://godoc.org/github.com/solar-jsoc/gohunter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/solar-jsoc/gohunter)](https://goreportcard.com/report/github.com/solar-jsoc/gohunter)
+[![GoDoc](https://godoc.org/github.com/solar-jsoc/gohunter?status.svg)](https://godoc.org/github.com/solar-jsoc/gohunter)
 
 Client library for hunter.io
 
