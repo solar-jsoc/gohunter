@@ -128,7 +128,11 @@ func TestCheckResponse(t *testing.T) {
 
 	err = checkResponse(&res)
 	if err == nil {
-		t.Error("error must be not nil")
+		if e, ok := err.(*HunterError); ok {
+			if e.Code != 429 {
+				t.Error("expected 429 error code")
+			}
+		}
 	}
 }
 
