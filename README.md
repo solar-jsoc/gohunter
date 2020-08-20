@@ -1,9 +1,10 @@
 # gohunter
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/solar-jsoc/gohunter)](https://goreportcard.com/report/github.com/solar-jsoc/gohunter)
-[![GoDoc](https://godoc.org/github.com/solar-jsoc/gohunter?status.svg)](https://godoc.org/github.com/solar-jsoc/gohunter)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/solar-jsoc/gohunter)](https://pkg.go.dev/github.com/solar-jsoc/gohunter)
 
-Client library for hunter.io
+
+Client library for [hunter.io](https://hunter.io)
 
 # Methods
 
