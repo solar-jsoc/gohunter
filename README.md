@@ -1,5 +1,7 @@
 # gohunter
 
+[![Tests](https://github.com/solar-jsoc/gohunter/workflows/Tests/badge.svg)](https://github.com/solar-jsoc/gohunter/actions)
+[![Coverage Status](https://coveralls.io/repos/github/solar-jsoc/gohunter/badge.svg?branch=master)](https://coveralls.io/github/solar-jsoc/gohunter?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/solar-jsoc/gohunter)](https://goreportcard.com/report/github.com/solar-jsoc/gohunter)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/solar-jsoc/gohunter)](https://pkg.go.dev/github.com/solar-jsoc/gohunter)
 
